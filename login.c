@@ -60,9 +60,12 @@ void main()
                 break;
             case ESC:
                 gotoxy(45,26);
-                printf("\n\n\n\tEXITING ..........\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                printf("EXITING..........................................................................");
                 delay(2);
-                printf("\tEXITED SUCCESSFULLY !!!!\n\n\n\n\n\n\n");
+                gotoxy(67,32);
+                printf("EXITED SUCCESSFULLY !!!");
+                delay(3);
+                system("cls");
                 exit(0);
                 break;
         }
